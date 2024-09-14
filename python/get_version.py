@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 def main() -> None:
-    rootpath = Path(__file__).absolute().parents[1]
+    rootpath = Path(__file__).absolute().parents[2]
     with open(rootpath / "pyproject.toml", encoding="utf-8") as f:
         print(f.read().split('version = "')[1].split('"')[0])
 

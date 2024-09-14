@@ -9,7 +9,7 @@ import argparse
 import subprocess
 from pathlib import Path
 
-ROOTPATH: Path = Path(__file__).absolute().parents[1]
+ROOTPATH: Path = Path(__file__).absolute().parents[2]
 DOCSPATH: Path = ROOTPATH / "docs" / "architecture"
 
 
