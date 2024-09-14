@@ -7,7 +7,7 @@ import subprocess
 from pathlib import Path
 from subprocess import CompletedProcess
 
-ROOTPATH: Path = Path(__file__).absolute().parents[2]
+ROOTPATH: Path = Path(__file__).absolute().parents[3]
 
 
 class Tester:
