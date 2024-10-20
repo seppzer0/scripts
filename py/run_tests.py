@@ -42,7 +42,7 @@ class Tester:
         os.environ["PYTHONPATH"] = str(ROOTPATH)
 
         self._step_message(tool, "start")
-        self._launch_cmd(f"{INTERPRETER} -m pytest -vv tests/ --cov")
+        self._launch_cmd(f"{INTERPRETER} -m pytest -vv tests/")
         self._step_message(tool, "finish")
 
     def bandit_check(self) -> None:
